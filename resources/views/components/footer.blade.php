@@ -15,17 +15,17 @@
                 <li>
                     <a href="https://www.upwork.com/freelancers/~01dca66f043497b720" target="_blank" class="group">
                         @include('components.icons.upwork')
-                    </a
+                    </a>
                 </li>
                 <li>
                     <a href="https://github.com/digitalvillainy" target="_blank" class="group">
                         @include('components.icons.github')
-                    </a
+                    </a>
                 </li>
             </ul>
         </div>
         <div class="bg-neon-green rounded-md py-1 px-3 m-2 text-xl text-right w-full place-content-center">
-            Made By Roberto Rivera &copy; 2024
+            Made By Roberto Rivera &copy; {{date('Y')}}
         </div>
     </div>
 </footer>
