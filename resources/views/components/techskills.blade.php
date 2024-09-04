@@ -1,5 +1,6 @@
-<aside class="border-2 border-neon-green rounded flex flex-col p-3 w-fit space-y-4">
+<aside class="border-2 border-neon-green rounded flex flex-col p-2 w-full space-y-4">
     <span class="text-neon-green w-full text-2xl text-right">TECHNOLOGIES & SKILLS</span>
+    <div class="place-content-center">
     <div class="flex flex-col w-fit">
         <span class="text-white text-2xl w-full">
             LANGUAGES
@@ -39,5 +40,6 @@
             @include('components.icons.techSkills.storybook')
             @include('components.icons.techSkills.figma')
         </div>
+    </div>
     </div>
 </aside>

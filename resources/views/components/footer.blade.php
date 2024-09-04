@@ -1,4 +1,4 @@
-<footer class="flex flex-row w-full mb-3">
+<footer class="flex flex-row w-full my-3">
     <div class="flex flex-row w-full">
         <div class="bg-white rounded-md py-1 px-1 mx-2 my-2 text-2xl flex flex-row">
             <ul class="flex flex-row justify-between content-center place-items-center">
