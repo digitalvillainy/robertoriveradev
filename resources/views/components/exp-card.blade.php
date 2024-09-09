@@ -14,5 +14,11 @@
         '-left-28' => $position === 'left',
          '-right-28' => $position === 'right'
      ])
-    ></div>
+    >
+        <div @class([
+        'bg-dark-neon-green size-8 absolute -top-4',
+        '-left-4 justify-self-end' => $position === 'left',
+        '-right-4 justify-self-start' => $position === 'right'
+        ])></div>
+    </div>
 </div>

@@ -1,9 +1,8 @@
 <section class="border-2 border-neon-green rounded flex flex-col p-1.5 w-full">
     <span class="text-neon-green w-full text-2xl text-right">EXPERIENCE</span>
-    <div class="flex flex-row justify-between h-full w-9/12 mx-auto py-8">
+    <div class="flex flex-row justify-between h-full w-[89em] mx-auto py-8">
         <div class="flex flex-col justify-around h-full">
-            <div
-                class="border-2 border-dark-neon-green rounded flex flex-row p-1.5 w-[30em] text-white justify-between text-xl">
+            <div class="border-2 border-dark-neon-green rounded flex flex-row p-1.5 w-[30em] text-white justify-between text-xl">
                 <span>You? Contact me today!</span>
                 <span>Currently</span>
             </div>
@@ -21,9 +20,7 @@
             ])
         </div>
 
-       <div class="bg-white w-1.5 h-full"></div>
-
-
+        <div class="bg-white w-1.5 h-full"></div>
         <div class="flex flex-col justify-between h-full">
             @include('components.exp-card', [
                 'title' => 'Front-End Web Developer III',
