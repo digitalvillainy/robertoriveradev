@@ -16,7 +16,8 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans flex flex-col min-h-svh bg-gradient-to-b from-[#080724] to-[#38376D]">
+{{--<body class="font-sans flex flex-col min-h-svh bg-gradient-to-b from-[#080724] to-[#38376D]">--}}
+<body class="font-sans flex flex-col min-h-screen bg-gradient-to-b from-[#080724] to-[#38376D]">
     <!-- Page Heading -->
     <header>
         @include('components.navbar')

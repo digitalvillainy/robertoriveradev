@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-escriben-img {
+    @apply bg-[url('/public/media/escriben.png')] bg-cover bg-center bg-no-repeat;
+}
+
+.bg-escriben-img:hover {
+    @apply bg-[url('/public/media/escribenVideo.gif')];
+}
+
+.bg-rbm-img {
+    @apply bg-[url('/public/media/rbm.png')] bg-cover bg-center bg-no-repeat;
+}
+
+.bg-rbm-img:hover {
+    @apply bg-[url('/public/media/rbm.gif')];
+}
+
+.bg-promanage-img {
+    @apply bg-[url('/public/media/promanage.png')] bg-cover bg-center bg-no-repeat;
+}
+
+.bg-promanage-img:hover {
+    @apply bg-[url('/public/media/promanage.gif')];
+}
