@@ -1,4 +1,4 @@
-<section class="border-2 border-neon-green rounded flex flex-col p-1.5 w-full h-[75vh]">
+<section class="border-2 border-neon-green rounded flex flex-col p-1.5 w-full h-[72.5vh]">
     <span class="text-neon-green w-full text-2xl text-right">EXPERIENCE</span>
     <div class="flex flex-row justify-between h-full w-[89em] mx-auto py-8">
         <div class="flex flex-col justify-between h-3/5">

@@ -32,6 +32,6 @@
     <footer>
         @include('components.footer')
     </footer>
-</body
+</body>
 
 </html>
