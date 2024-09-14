@@ -1,12 +1,12 @@
-<nav class="flex flex-col lg:flex-row lg:w-full my-3 mx-auto w-11/12">
+<nav class="flex flex-col lg:flex-row lg:w-full my-3 mx-auto lg:mx-0 w-11/12">
     <div class="flex flex-row w-full">
         <a class="bg-white rounded-md py-1 px-3 lg:mx-2 my-2 text-2xl cursor-pointer
-                  hover:bg-dark-neon-green hover:text-white" href="/">R</a>
-        <div class="bg-neon-green rounded-md py-1 px-3 m-2 text-xl content-center w-full">
+                  hover:bg-dark-neon-green hover:text-white content-center" href="/">R</a>
+        <div class="bg-neon-green rounded-md py-1 px-3 my-2 ml-2 lg:m-2 text-xl content-center w-full">
             Roberto Rivera - Full Stack Web Developer
         </div>
     </div>
-    <ul class="flex flex-row justify-between space-x-2 mr-2">
+    <ul class="flex flex-row justify-between space-x-2 lg:mr-2">
         <li>
             <a href="/exp" class="flex flex-row group cursor-pointer">
                 <span class="bg-white rounded-tl-md rounded-bl-md group-hover:bg-dark-neon-green group-hover:text-white

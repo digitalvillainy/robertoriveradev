@@ -1,4 +1,4 @@
-<section class="border-2 border-neon-green rounded flex flex-col p-4 w-full h-fit my-5">
+<section class="border-2 border-neon-green rounded flex flex-col p-4 w-full h-fit mt-5">
     <span class="text-neon-green w-full text-2xl text-right">PORTFOLIO</span>
     <div class="flex flex-row flex-wrap justify-between content-start">
         @include('components.port-card',  [

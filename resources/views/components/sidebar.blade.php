@@ -1,4 +1,4 @@
-<aside class="flex flex-col w-11/12 mx-auto lg:w-3/12 mr-8">
+<aside class="flex flex-col w-full lg:w-3/12 lg:mr-5">
     <div class="border-2 border-neon-green rounded flex flex-col p-1.5 w-full mb-8 mr-4">
         <div class="flex flex-row justify-between w-full">
             <img class="size-56 m-1" src="{{asset('media/profile_pic.jpeg')}}" alt="Roberto Rivera">

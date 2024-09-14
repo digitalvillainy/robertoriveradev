@@ -1,9 +1,9 @@
 @props(['thumbnail', 'title', 'description', 'languages', 'ghLink' => false, 'siteLink' => false])
-<section class="border-2 border-neon-green rounded flex flex-col p-1.5 max-w-96 h-full">
+<section class="border-2 border-neon-green rounded flex flex-col p-1.5 max-w-96 min-h-full max-w-7/12">
     <div class="{{$thumbnail}} w-full h-60"></div>
     <div class="my-5 space-y-2 grow">
         <h5 class="text-3xl text-white">{{$title}}</h5>
-        <p class="text-2xl text-dark-neon-green h-3/6">{{$description}}</p>
+        <p class="text-2xl text-dark-neon-green h-full">{{$description}}</p>
     </div>
     <div class="flex flex-wrap flex-row justify-between text-white w-full">
         @foreach($languages as $language)
