@@ -1,6 +1,6 @@
-<nav class="flex flex-row w-full my-3">
+<nav class="flex flex-col lg:flex-row lg:w-full my-3 mx-auto w-11/12">
     <div class="flex flex-row w-full">
-        <a class="bg-white rounded-md py-1 px-3 mx-2 my-2 text-2xl cursor-pointer
+        <a class="bg-white rounded-md py-1 px-3 lg:mx-2 my-2 text-2xl cursor-pointer
                   hover:bg-dark-neon-green hover:text-white" href="/">R</a>
         <div class="bg-neon-green rounded-md py-1 px-3 m-2 text-xl content-center w-full">
             Roberto Rivera - Full Stack Web Developer
