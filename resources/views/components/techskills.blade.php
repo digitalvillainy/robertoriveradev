@@ -1,4 +1,4 @@
-<aside class="border-2 border-neon-green rounded flex flex-col p-2 w-full space-y-4">
+<aside class="border-2 border-neon-green rounded flex flex-col p-2 w-full space-y-4 mb-5">
     <span class="text-neon-green w-full text-2xl text-right">TECHNOLOGIES & SKILLS</span>
     <div class="space-y-5 place-items-center mx-auto">
         <div class="flex flex-col w-full">
@@ -6,7 +6,7 @@
             LANGUAGES
         </span>
             <div
-                class="bg-dark-neon-green border-2 border-neon-green rounded flex flex-row p-1.5 w-fit space-x-8 place-items-center">
+                class="bg-dark-neon-green border-2 border-neon-green rounded flex flex-row flex-wrap p-1.5 w-fit space-x-8 place-items-center">
                 @include('components.icons.techSkills.html')
                 @include('components.icons.techSkills.js')
                 @include('components.icons.techSkills.css')
