@@ -9,7 +9,7 @@
             </div>
         </div>
 
-        <div class="flex flex-col space-y-8 text-xl w-full mx-1 px-1">
+        <div class="flex flex-col space-y-8 text-xl w-full mx-1 px-1 font-roboto">
             <p class="text-neon-green">Hello Everyone!</p>
             <p class="text-neon-green">
                 Looking for someone that can make something for the web? I love making things for the web!

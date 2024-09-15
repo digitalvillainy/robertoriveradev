@@ -47,13 +47,13 @@
             SOFTWARE & TOOLS
         </span>
             <div
-                class="bg-dark-neon-green border-2 border-neon-green rounded flex flex-row flex-wrap p-1.5 w-fit space-x-8 place-items-center">
-                <div class="flex flex-row justify-between">
+                class="bg-dark-neon-green border-2 border-neon-green rounded flex flex-row flex-wrap justify-between p-1.5 w-fit spacey-y-5 lg:space-x-8 place-items-center">
+                <div class="flex flex-row justify-between w-full place-items-center">
                     @include('components.icons.techSkills.github')
                     @include('components.icons.techSkills.git')
                     @include('components.icons.techSkills.apache')
                 </div>
-                <div class="flex flex-row justify-between">
+                <div class="flex flex-row justify-between w-full place-items-center">
                     @include('components.icons.techSkills.docker')
                     @include('components.icons.techSkills.storybook')
                     @include('components.icons.techSkills.figma')

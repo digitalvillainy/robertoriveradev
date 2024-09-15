@@ -18,7 +18,7 @@
                 <span>{{ $title }}</span>
                 <span>{{ $from }} - {{ $to }}</span>
             </div>
-            <p class="text-neon-green">{{ $description }}</p>
+            <p class="font-roboto text-neon-green">{{ $description }}</p>
         </div>
         <div @class([
             'hidden bg-white h-1.5 w-28 absolute top-1/2',

@@ -16,6 +16,7 @@ export default {
             },
             fontFamily: {
                 sans: ["Handjet", ...defaultTheme.fontFamily.sans],
+                roboto: ["Roboto", ...defaultTheme.fontFamily.sans],
             },
         },
     },

@@ -2,7 +2,7 @@
     <div class="flex flex-row w-full">
         <a class="bg-white rounded-md py-1 px-3 lg:mx-2 my-2 text-2xl cursor-pointer
                   hover:bg-dark-neon-green hover:text-white content-center" href="/">R</a>
-        <div class="bg-neon-green rounded-md py-1 px-3 my-2 ml-2 lg:m-2 text-xl content-center w-full">
+        <div class="bg-neon-green rounded-md py-1 px-3 my-2 ml-2 lg:m-2 text-2xl content-center w-full">
             Roberto Rivera - Full Stack Web Developer
         </div>
     </div>

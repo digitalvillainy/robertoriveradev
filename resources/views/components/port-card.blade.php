@@ -15,10 +15,11 @@
     <div class="flex flex-col space-y-3 lg:flex-row justify-between w-full">
         <div>
             @if($ghLink)
-                <button class="bg-neon-green rounded w-full lg:w-32 h-10 hover:bg-white">
-                    <a class="flex flex-row justify-between p-1 w-full place-items-center" href="{{$ghLink}}"
+                <button class="bg-neon-green rounded w-full lg:w-32 h-10 px-3 hover:bg-white">
+                    <a class="flex flex-row justify-between w-full place-items-center"
+                       href="{{$ghLink}}"
                        target="_blank">
-                        <span class="text-base">Visit Github</span>
+                        <span class="text-2xl">Visit Github</span>
                         @include('components.icons.github', ['size'=> 'size-5'])
                     </a>
                 </button>
@@ -29,10 +30,10 @@
         <div>
             @if($siteLink)
                 <button class="bg-neon-green rounded w-full lg:w-32 h-10 px-3 hover:bg-white">
-                    <a class="flex flex-row justify-between p-1 w-full place-items-center"
+                    <a class="flex flex-row justify-between w-full place-items-center"
                        href="{{$siteLink}}"
                        target="_blank">
-                        <span class="text-base">Visit Site</span>
+                        <span class="text-2xl">Visit Site</span>
                         @include('components.icons.link')
                     </a>
                 </button>
