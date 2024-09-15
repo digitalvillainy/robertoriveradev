@@ -1,4 +1,4 @@
-<nav class="flex flex-col lg:flex-row lg:w-full my-3 mx-auto lg:mx-0 w-11/12">
+<nav class="flex flex-col md:flex-row md:justify-center md:space-x-2 my-3 mx-auto lg:mx-0 w-11/12 lg:w-full">
     <div class="flex flex-row w-full">
         <a class="bg-white rounded-md py-1 px-3 lg:mx-2 my-2 text-2xl cursor-pointer
                   hover:bg-dark-neon-green hover:text-white content-center" href="/">R</a>

@@ -1,8 +1,8 @@
-<aside class="flex flex-col w-full lg:w-3/12 lg:mr-5">
+<aside class="flex flex-col w-full lg:w-6/12 lg:mr-5">
     <div class="border-2 border-neon-green rounded flex flex-col p-1.5 w-full mb-8 mr-4">
+        <span class="text-neon-green w-full text-2xl text-right">ABOUT</span>
         <div class="flex flex-col lg:flex-row justify-between w-full">
-            <span class="text-neon-green w-full text-2xl text-right">ABOUT</span>
-            <img class="w-11/12 mx-auto lg:size-56 m-2" src="{{asset('media/profile_pic.jpeg')}}" alt="Roberto Rivera">
+            <img class="w-11/12 mx-auto md:size-96 lg:size-56 m-2" src="{{asset('media/profile_pic.jpeg')}}" alt="Roberto Rivera">
             <div class="flex flex-row justify-between w-6/12 mx-auto my-3 lg:flex-col lg:w-fit lg:space-y-6">
                 @include('components.icons.resume')
                 @include('components.icons.email')

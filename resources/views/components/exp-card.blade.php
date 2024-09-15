@@ -20,16 +20,8 @@
             </div>
             <p class="font-roboto text-neon-green">{{ $description }}</p>
         </div>
-        <div @class([
-            'hidden bg-white h-1.5 w-28 absolute top-1/2',
-            '-left-28' => $position === 'left',
-             '-right-28' => $position === 'right'
-         ])>
-            <div @class([
-                'bg-dark-neon-green size-8 absolute -top-4',
-                '-left-4 justify-self-end' => $position === 'left',
-                '-right-4 justify-self-start' => $position === 'right'
-            ])></div>
+        <div class="hidden md:block bg-white h-1.5 w-28 absolute top-1/2 md:-right-28">
+            <div class="bg-dark-neon-green size-8 absolute -top-4 md:-right-4"></div>
         </div>
     </div>
 @else
@@ -38,16 +30,8 @@
             <span>{{$msg}}</span>
             <span>{{$time}}</span>
         </div>
-        <div @class([
-            'hidden bg-white h-1.5 w-28 absolute top-1/2',
-            '-left-28' => $position === 'left',
-             '-right-28' => $position === 'right'
-         ])>
-            <div @class([
-                'bg-dark-neon-green size-8 absolute -top-4',
-                '-left-4 justify-self-end' => $position === 'left',
-                '-right-4 justify-self-start' => $position === 'right'
-            ])></div>
+        <div class="hidden md:block bg-white h-1.5 w-28 absolute top-1/2 md:-right-28">
+            <div class="bg-dark-neon-green size-8 absolute -top-4 md:-right-4"></div>
         </div>
     </div>
 @endif

@@ -1,6 +1,6 @@
 <a href="{{asset('media/roberto_rivera_resume.pdf.pdf')}}" download="roberto rivera resume.pdf"
     class="flex flex-col place-items-center w-fit cursor-pointer group">
-    <svg class="fill-[#65FA62] group-hover:fill-white size-10" viewBox="0 0 22 22" fill="none"
+    <svg class="fill-[#65FA62] group-hover:fill-white size-10 md:size-14" viewBox="0 0 22 22" fill="none"
          xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_40_897)">
             <path d="M0 2.75C0 1.2332 1.2332 0 2.75 0H9.625V5.5C9.625 6.26055 10.2395 6.875 11
@@ -24,5 +24,5 @@
             </clipPath>
         </defs>
     </svg>
-    <span class="text-neon-green w-fit group-hover:text-white">Resume</span>
+    <span class="text-neon-green w-fit group-hover:text-white md:text-2xl">Resume</span>
 </a>
