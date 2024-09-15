@@ -1,7 +1,7 @@
 <footer class="flex flex-row w-full my-3">
-    <div class="flex flex-row w-full">
-        <div class="bg-white rounded-md py-1 px-1 mx-2 my-2 text-2xl flex flex-row">
-            <ul class="flex flex-row justify-between content-center place-items-center">
+    <div class="flex flex-col lg:flex-row w-full">
+        <div class="bg-white rounded-md py-1 px-1 mx-2 my-2 text-2xl flex flex-row justify-between">
+            <ul class="flex flex-row justify-between content-center place-items-center w-full">
                 <li>
                     <a href="https://www.threads.net/@xerafenix" target="_blank" class="group">
                         @include('components.icons.threads')
@@ -24,7 +24,7 @@
                 </li>
             </ul>
         </div>
-        <div class="bg-neon-green rounded-md py-1 px-3 m-2 text-xl text-right w-full place-content-center">
+        <div class="bg-neon-green rounded-md py-1 px-3 my-2 mx-3 lg:m-2 text-xl text-right w-11/12 lg:w-full place-content-center">
             Made By Roberto Rivera &copy; {{date('Y')}}
         </div>
     </div>
