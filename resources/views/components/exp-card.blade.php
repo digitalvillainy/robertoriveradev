@@ -12,7 +12,7 @@
 
 @if($mode === 'full')
     <div class="flex flex-row relative">
-        <div class="border-2 border-dark-neon-green rounded flex flex-col p-3 lg:w-[30em] text-white justify-between text-xl space-y-3">
+        <div class="border-2 border-dark-neon-green rounded flex flex-col p-3 lg:w-[18.2em] xl:w-[30em] text-white justify-between text-xl space-y-3">
             <h3 class="text-3xl">{{ $company }}</h3>
             <div class="flex flex-row justify-between">
                 <span>{{ $title }}</span>
@@ -25,7 +25,7 @@
         </div>
     </div>
 @else
-    <div class="border-2 border-dark-neon-green rounded p-1.5 lg:w-[30em] text-white text-xl relative mb-4">
+    <div class="border-2 border-dark-neon-green rounded p-1.5 lg:w-[18.2em] xl:w-[30em] text-white text-xl relative mb-4">
         <div class="flex flex-row justify-between">
             <span>{{$msg}}</span>
             <span>{{$time}}</span>
