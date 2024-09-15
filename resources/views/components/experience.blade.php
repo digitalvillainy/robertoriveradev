@@ -1,13 +1,13 @@
-<section class="border-2 border-neon-green rounded flex flex-col p-1.5 h-[72.5vh]">
+<section class="border-2 border-neon-green rounded flex flex-col p-1.5 h-full lg:h-[72.5vh]">
     <span class="text-neon-green w-full text-2xl text-right">EXPERIENCE</span>
-    <div class="flex flex-row justify-between h-full w-[89em] mx-auto py-8">
-        <div class="flex flex-col justify-between h-3/5">
+    <div class="flex flex-col lg:flex-row justify-between h-full w-full lg:w-[89em] mx-auto py-8 space-y-6">
+        <div class="flex flex-col justify-between h-full lg:h-3/5">
             @include('components.exp-card', [
                 'msg' => 'You? Contact me today!',
                 'time' => 'Currently',
                 'position' => 'right',
                 'mode' => 'short'
-            ]);
+            ])
 
             @include('components.exp-card', [
                 'title' => 'Full Stack Web Developer',
@@ -23,7 +23,7 @@
         </div>
 
         <div class="bg-white w-1.5 h-full"></div>
-        <div class="flex flex-col justify-between h-full">
+        <div class="flex flex-col justify-between h-full space-y-6">
             @include('components.exp-card', [
                 'title' => 'Front-End Web Developer III',
                 'company' => 'Productive Edge, Chicago Illinois [Remote]',
