@@ -8,7 +8,7 @@
     </div>
     <ul class="flex flex-row justify-between space-x-2 lg:mr-2">
         <li>
-            <a href="/exp" class="flex flex-row group cursor-pointer">
+            <a href="/#exp" class="flex flex-row group cursor-pointer">
                 <span class="bg-white rounded-tl-md rounded-bl-md group-hover:bg-dark-neon-green group-hover:text-white
                              group-hover:shadow-2xl group-hover:shadow-neon-green py-1 px-2 my-2 text-2xl">E</span>
                 <span class="bg-neon-green rounded-tr-md rounded-br-md group-hover:bg-white group-hover:text-neon-green
@@ -16,7 +16,7 @@
             </a>
         </li>
         <li>
-            <a href="/port" class="flex flex-row group cursor-pointer">
+            <a href="/#port" class="flex flex-row group cursor-pointer">
                 <span class="bg-white rounded-tl-md rounded-bl-md group-hover:bg-dark-neon-green group-hover:text-white
                              group-hover:shadow-2xl group-hover:shadow-neon-green py-1 px-2 my-2 text-2xl">P</span>
                 <span class="bg-neon-green rounded-tr-md rounded-br-md group-hover:bg-white group-hover:text-neon-green
