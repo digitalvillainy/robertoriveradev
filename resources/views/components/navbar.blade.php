@@ -24,7 +24,7 @@
             </a>
         </li>
         <li>
-            <a href="/blog" class="flex flex-row group cursor-pointer">
+            <a href="/blog" class="flex flex-row group cursor-pointer 2xl:mr-3">
                 <span class="bg-white rounded-tl-md rounded-bl-md group-hover:bg-dark-neon-green group-hover:text-white
                              group-hover:shadow-2xl group-hover:shadow-neon-green py-1 px-2 my-2 text-2xl">B</span>
                 <span class="bg-neon-green rounded-tr-md rounded-br-md group-hover:bg-white group-hover:text-neon-green
