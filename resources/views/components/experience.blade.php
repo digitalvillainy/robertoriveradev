@@ -1,6 +1,6 @@
-<section class="border-2 border-neon-green rounded flex flex-col p-1.5 h-full xl:h-[72.5vh] 2xl:h-[89.5vh]">
+<section class="border-2 border-neon-green rounded flex flex-col p-1.5 h-full xl:h-[72.5vh] 2xl:h-[89.5vh] 3xl:h-[82.5vh]">
     <span class="text-neon-green w-full text-2xl text-right">EXPERIENCE</span>
-    <div class="flex flex-row justify-between md:w-[27.3em] lg:w-[30em] 2xl:w-[64em] md:mx-auto">
+    <div class="flex flex-row justify-between md:w-[27.3em] lg:w-[30em] 2xl:w-[64em] 3xl:w-[101.5em] md:mx-auto">
         <div class="flex flex-col xl:flex-row place-items-start lg:justify-between h-full md:w-80 lg:w-full lg:mx-auto py-8 space-y-6">
             <div class="flex flex-col justify-between h-full lg:h-3/5">
                 <x-exp-card
