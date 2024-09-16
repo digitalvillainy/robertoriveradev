@@ -18,6 +18,10 @@ export default {
                 sans: ["Handjet", ...defaultTheme.fontFamily.sans],
                 roboto: ["Roboto", ...defaultTheme.fontFamily.sans],
             },
+            screens: {
+                '3xl': '1900px',
+                '4xl': '2000px',
+            }
         },
     },
 
