@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -22,10 +23,16 @@ class BlogPost extends Model
         return collect(File::allFiles(resource_path($this->path), true));
     }
 
+    public function getFilesWithMeta(): Collection
+    {
+        $allFiles = $this->getFiles();
+        return $allFiles->map(fn($value, $key) => $this->parseBlogPosts($value->getPathname()));
+    }
+
     public function getPost(string $filename): array
     {
         $filePath = resource_path($this->path . "/{$filename}.md");
-        if(File::exists($filePath)) {
+        if (File::exists($filePath)) {
             $allFiles = $this->getFiles();
             $file = $allFiles->filter(fn($value, $key) => $value->getFilename() === $filename . ".md")[0];
             return $this->parsePost($file->getPathname());
@@ -33,9 +40,19 @@ class BlogPost extends Model
         return [];
     }
 
+    public function parseBlogPosts(string $file): array
+    {
+        $metadata = YamlFrontMatter::parse(file_get_contents($file));
+        $date = Carbon::parse($metadata->matter('date'))->format('F j, Y');
+        return [
+            ...$metadata->matter(),
+            'printDate' => $date
+        ];
+    }
+
     public function parsePost(string $file): array
     {
-        $metadata = YamlFrontMatter::parse(file_get_contents( $file));
+        $metadata = YamlFrontMatter::parse(file_get_contents($file));
         return [
             $metadata->matter(),
             $metadata->body(),

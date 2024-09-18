@@ -17,4 +17,9 @@ class BlogController extends Controller
     {
         return (new BlogPost)->getPost($filename);
     }
+
+    public function getFilesWithMeta(): Collection
+    {
+        return (new BlogPost)->getFilesWithMeta();
+    }
 }
