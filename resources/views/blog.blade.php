@@ -1,0 +1,1 @@
+@markdom($post['content'])
