@@ -9,17 +9,17 @@ return [
      * <p class="lead">
      */
     'classes' => [
-        'h1'     => 'text-3xl font-bold mt-1 mb-2 border-b',
-        'h2'     => 'text-2xl font-bold my-1 border-b',
-        'h3'     => 'text-xl font-bold my-1',
-        'h4'     => 'text-lg font-bold my-1',
-        'h5'     => 'text-base font-bold my-1',
-        'h6'     => 'text-sm font-bold my-1',
-        'p'      => 'py-2',
-        'ul'     => 'list-disc list-inside',
-        'ul ul'  => 'pl-8 list-disc list-inside',
-        'ol'     => 'list-decimal list-inside',
-        'pre'    => 'my-1'
+        'h1'     => 'text-3xl font-bold mt-1 mb-2 text-neon-green',
+        'h2'     => 'text-2xl font-bold my-1 text-neon-green',
+        'h3'     => 'text-xl font-bold my-1 text-neon-green',
+        'h4'     => 'text-lg font-bold my-1 text-neon-green',
+        'h5'     => 'text-base font-bold my-1 text-neon-green',
+        'h6'     => 'text-sm font-bold my-1 text-neon-green',
+        'p'      => 'py-2 text-white text-base font-roboto',
+        'ul'     => 'list-disc list-inside text-white font-roboto',
+        'ul ul'  => 'pl-8 list-disc list-inside text-white font-roboto',
+        'ol'     => 'list-decimal list-inside text-white font-roboto',
+        'pre'    => 'my-1 text-dark-neon-green font-roboto',
     ],
 
     /**

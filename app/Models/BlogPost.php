@@ -55,7 +55,8 @@ class BlogPost extends Model
         $metadata = YamlFrontMatter::parse(file_get_contents($file));
         return [
             $metadata->matter(),
-            $metadata->body(),
+            'title' => $metadata->matter('title'),
+            'content' => $metadata->body(),
         ];
     }
 
