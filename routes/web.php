@@ -5,9 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 $blogController = new BlogController();
 
-Route::get("/", fn() => view("home"));
-
-Route::get('/blog', fn() => view("blogs", [
+Route::get("/", fn() => view("home", [
     "posts" => $blogController->getFilesWithMeta()
 ]));
 

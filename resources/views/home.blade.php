@@ -5,6 +5,7 @@
         <div class="flex flex-col w-full h-full">
             @include('components.experience')
             @include('components.portfolio')
+            @include('components.blogs', ['posts' => $posts])
         </div>
     </div>
 @endsection
