@@ -1,8 +1,19 @@
 @extends('layouts.app')
 @section('title', 'Blog For Roberto Rivera | Full Stack Web Developer')
-@section('description', 'Full Stack Web Developer, located in New York State. Specializing in PHP and JavaScript. Available for freelancing or full time hire.')
+@section('description', $post['meta']['excerpt'])
 @section('content')
     <section class="w-11/12 mx-auto">
+        <h1 class="text-4xl text-neon-green">
+            {{$post['meta']['title']}}
+        </h1>
+        <div class="flex flex-row justify-between mb-10">
+            <span class="text-xl text-dark-neon-green">
+                Written By: {{$post['meta']['author']}}
+            </span>
+            <span class="text-xl text-white">
+            {{$post['printDate']}}
+        </span>
+        </div>
         <div class="min-w-11/12 max-w-3/12 mx-auto">
             @markdom($post['content'])
         </div>

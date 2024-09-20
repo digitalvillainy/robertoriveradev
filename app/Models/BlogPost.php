@@ -56,8 +56,10 @@ class BlogPost extends Model
     public function parsePost(string $file): array
     {
         $metadata = YamlFrontMatter::parse(file_get_contents($file));
+        $date = Carbon::parse($metadata->matter('date'))->format('F j, Y');
         return [
-            $metadata->matter(),
+            'meta' => $metadata->matter(),
+            'printDate' => $date,
             'title' => $metadata->matter('title'),
             'content' => $metadata->body(),
         ];
