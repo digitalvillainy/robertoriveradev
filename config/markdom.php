@@ -19,7 +19,8 @@ return [
         'ul'     => 'list-disc list-inside text-white font-roboto',
         'ul ul'  => 'pl-8 list-disc list-inside text-white font-roboto',
         'ol'     => 'list-decimal list-inside text-white font-roboto',
-        'pre'    => 'my-1 text-dark-neon-green font-roboto',
+        'pre'    => 'my-1 text-dark-neon-green font-roboto w-[200px] overflow-x-auto',
+        'code'    => 'bg-neon-green/30 my-1 text-dark-neon-green font-roboto min-w-[200px] overflow-x-auto',
     ],
 
     /**
