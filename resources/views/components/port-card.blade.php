@@ -19,7 +19,7 @@
                     <a class="flex flex-row justify-between w-full place-items-center"
                        href="{{$ghLink}}"
                        target="_blank">
-                        <span class="text-2xl">Visit Github</span>
+                        <span class="text-2xl pr-3">Visit Github</span>
                         @include('components.icons.github', ['size'=> 'size-5'])
                     </a>
                 </button>
@@ -33,7 +33,7 @@
                     <a class="flex flex-row justify-between w-full place-items-center"
                        href="{{$siteLink}}"
                        target="_blank">
-                        <span class="text-2xl">Visit Site</span>
+                        <span class="text-2xl pr-3">Visit Site</span>
                         @include('components.icons.link')
                     </a>
                 </button>
