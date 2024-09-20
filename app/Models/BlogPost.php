@@ -26,7 +26,8 @@ class BlogPost extends Model
     public function getFilesWithMeta(): Collection
     {
         $allFiles = $this->getFiles();
-        return $allFiles->map(fn($value, $key) => $this->parseBlogPosts($value->getPathname()));
+        return $allFiles->map(fn($value, $key) => $this->parseBlogPosts($value->getPathname()))
+            ->sortBy('date');
     }
 
     public function getPost(string $filename): array
