@@ -1,5 +1,6 @@
 ---
 title: Test
+slug: test
 author: Roberto "Danger" Rivera
 date: 2024-09-17
 excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

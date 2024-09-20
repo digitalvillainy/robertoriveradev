@@ -1,8 +1,8 @@
 ---
-title: Test 4
-description: Test 4
+title: Test 2
+slug: test-2
 author: Roberto "Danger" Rivera
-date: 2024-09-20
+date: 2024-09-18
 excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 thumbnail: 'media/thumbnail.png'
 ---

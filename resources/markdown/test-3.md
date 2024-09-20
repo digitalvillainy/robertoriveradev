@@ -1,5 +1,6 @@
 ---
 title: Test 3
+slug: test-3
 description: Test 3
 author: Roberto "Danger" Rivera
 date: 2024-09-19

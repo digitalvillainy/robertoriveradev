@@ -34,7 +34,9 @@ class BlogPost extends Model
         $filePath = resource_path($this->path . "/{$filename}.md");
         if (File::exists($filePath)) {
             $allFiles = $this->getFiles();
-            $file = $allFiles->filter(fn($value, $key) => $value->getFilename() === $filename . ".md")[0];
+            $file = $allFiles->filter(
+                fn($value, $key) => $value->getFilename() === $filename . ".md"
+            )->first();
             return $this->parsePost($file->getPathname());
         }
         return [];
