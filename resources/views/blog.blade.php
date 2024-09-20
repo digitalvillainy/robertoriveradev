@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title', 'Blog For Roberto Rivera | Full Stack Web Developer')
+@section('description', 'Full Stack Web Developer, located in New York State. Specializing in PHP and JavaScript. Available for freelancing or full time hire.')
 @section('content')
     <section class="w-11/12 mx-auto">
         <div class="min-w-11/12 max-w-3/12 mx-auto">

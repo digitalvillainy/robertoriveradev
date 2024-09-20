@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title', 'Roberto Rivera | Full Stack Web Developer')
+@section('description', 'Full Stack Web Developer, located in New York State. Specializing in PHP and JavaScript. Available for freelancing or full time hire.')
 @section('content')
     <div class="mx-2 flex flex-col lg:flex-row ">
         @include('components.sidebar')
