@@ -1,5 +1,6 @@
 ---
 title: "Website Builders: Pros and Cons"
+slug: "website-builders-pros-and-cons"
 description: "Website Builders: Pros and Cons"
 author: Roberto Rivera
 date: 2024-09-20
