@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
 .bg-escriben-img {
     @apply bg-[url('/public/media/escriben.png')] bg-cover bg-center bg-no-repeat;
 }
