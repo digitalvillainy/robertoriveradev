@@ -31,7 +31,7 @@ things like newsletters to ecommerce.
 ## Pros of website builders
 
 1. They are easy to use: They are designed to have a low barrier to entry and can get as complex as you need them to be.
-2. They are easy to customize: They can be customized to suit the needs of the user.
+2. They are easy to customize: They can be customized to suit the needs of the user with use of plugins and themes.
 3. Opinionated: Because you are not a developer the builder makes tech decisions for you so you can focus on your
    business.
 4. Low cost: They often have a subscription or are free to use.
