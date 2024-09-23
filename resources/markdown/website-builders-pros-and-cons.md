@@ -5,7 +5,7 @@ description: "Website Builders: Pros and Cons"
 author: Roberto Rivera
 date: 2024-09-20
 excerpt: "Website Builders: Pros and Cons"
-thumbnail: "bg-wb-img"
+thumbnail: "/media/thumbnail.png"
 ---
 
 # Website Builders: Are they right for you?
