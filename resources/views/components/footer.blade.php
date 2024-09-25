@@ -13,7 +13,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.upwork.com/freelancers/~01dca66f043497b720" target="_blank" class="group">
+                    <a href="https://www.upwork.com/freelancers/robertoriveradev?viewMode=1" target="_blank" class="group">
                         @include('components.icons.upwork')
                     </a>
                 </li>
