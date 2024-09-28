@@ -12,14 +12,14 @@
             </div>
         @endforeach
     </div>
-    <div class="flex flex-col space-y-3 lg:flex-row justify-between w-full 2xl:place-items-end">
+    <div class="flex flex-col space-y-3 lg:flex-row justify-between w-full place-items-end">
         <div>
             @if($ghLink)
                 <button class="bg-neon-green rounded w-full lg:w-32 2xl:w-full h-10 px-3 hover:bg-white">
                     <a class="flex flex-row justify-between w-full place-items-center"
                        href="{{$ghLink}}"
                        target="_blank">
-                        <span class="text-2xl pr-3">Visit Github</span>
+                        <span class="text-md 2xl:text-2xl 2xl:pr-3">Visit Github</span>
                         @include('components.icons.github', ['size'=> 'size-5'])
                     </a>
                 </button>
@@ -33,7 +33,7 @@
                     <a class="flex flex-row justify-between w-full place-items-center"
                        href="{{$siteLink}}"
                        target="_blank">
-                        <span class="text-2xl pr-3">Visit Site</span>
+                        <span class="text-lg 2xl:text-2xl pr-3">Visit Site</span>
                         @include('components.icons.link')
                     </a>
                 </button>

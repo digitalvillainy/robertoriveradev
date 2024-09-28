@@ -1,6 +1,6 @@
 <section class="border-2 border-neon-green rounded flex flex-col p-4 w-full h-fit mt-5" id="port">
     <span class="text-neon-green w-full text-2xl text-right">PORTFOLIO</span>
-    <div class="flex flex-row flex-wrap space-y-5 justify-between content-start w-full md:w-6/12 md:mx-auto 2xl:w-8/12 2xl:justify-center 3xl:justify-between 3xl:w-11/12">
+    <div class="flex flex-row flex-wrap space-y-5 justify-between content-start w-full md:w-6/12 md:mx-auto lg:space-y-0 2xl:w-8/12 2xl:justify-center 3xl:justify-between 3xl:w-11/12">
         <x-port-card
             thumbnail="bg-escriben-img"
             title="Escriben - Markdown Editor"
