@@ -5,7 +5,7 @@
             <a href="./blog/{{$post['slug']}}"
                class="border-2 border-dark-neon-green rounded flex flex-col 2xl:flex-row md:justify-between p-1.5 w-full
                       text-white space-x-4 mx-2 hover:bg-dark-neon-green/30 hover:border-neon-green hover:shadow-2xl
-                      hover:shadow-dark-neon-green my-3 md:w-3/12 mb-3"
+                      hover:shadow-dark-neon-green my-3 md:w-6/12 mb-3"
             >
                 <img src="{{@asset($post['thumbnail'])}}" alt="book thumbnail"
                      class="size-44 md:size-32 mx-auto 2xl:mx-0"/>

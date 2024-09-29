@@ -4,7 +4,7 @@
 @section('content')
     <div class="mx-2 flex flex-col lg:flex-row ">
         @include('components.sidebar')
-        <div class="flex flex-col w-full h-full">
+        <div class="flex flex-col w-full h-full 3xl:w-9/12">
             @include('components.experience')
             @include('components.portfolio')
             @include('components.blogs', ['posts' => $posts])
