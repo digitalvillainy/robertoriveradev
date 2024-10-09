@@ -53,7 +53,7 @@
                 />
             </div>
         </div>
-        <div class="bg-white w-2 min-h-full"></div>
+        <div class="hidden md:block bg-white w-2 min-h-full"></div>
     </div>
 </section>
 
