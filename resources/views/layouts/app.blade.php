@@ -28,7 +28,7 @@
 
 <body class="font-sans flex flex-col min-h-screen bg-gradient-to-b from-[#080724] to-[#38376D]">
     <!-- Page Heading -->
-    <header>
+    <header class="px-2 3xl:px-0.5">
         @include('components.navbar')
     </header>
 
