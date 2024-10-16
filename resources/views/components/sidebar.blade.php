@@ -1,3 +1,4 @@
+@props(['show' => true])
 <aside class="flex flex-col w-full lg:w-6/12 lg:mr-5 3xl:w-3/12">
     <div class="border-2 border-neon-green rounded flex flex-col p-1.5 w-full mb-8 mr-4">
         <span class="text-neon-green w-full text-2xl text-right 3xl:text-3xl">ABOUT</span>
@@ -21,5 +22,7 @@
             </p>
         </div>
     </div>
-    @include('components.techskills')
+    @if($show)
+        @include('components.techskills', ['show' => $show])
+    @endif
 </aside>
