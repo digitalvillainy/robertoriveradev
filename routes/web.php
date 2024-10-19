@@ -10,7 +10,10 @@ Route::get("/", fn() => view("home", [
 ]));
 
 Route::get("/blog/{slug}", fn(string $slug) => view("blog", [
-    "post" =>$blogController->getPost($slug)
+    "post" => $blogController->getPost($slug)
 ]));
+
+Route::get('/uses', fn() => view("uses"));
+
 
 require __DIR__ . "/auth.php";
