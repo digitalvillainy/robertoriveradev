@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="size-11" viewBox="0 0 10 17" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" class="size-8 md:size-11 xl:size-9" viewBox="0 0 10 17" fill="none">
   <g clip-path="url(#clip0_40_928)">
     <mask id="mask0_40_928" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="10" height="17">
       <path d="M9.71428 0H0V17H9.71428V0Z" fill="white"/>

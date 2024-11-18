@@ -12,10 +12,10 @@
             </div>
         @endforeach
     </div>
-    <div class="flex flex-col space-y-3 lg:flex-row justify-between w-full place-items-end">
-        <div>
+    <div class="flex flex-col space-y-3 space-x-2 md:flex-row justify-between w-full place-items-end">
+        <div class="w-full md:w-6/12">
             @if($ghLink)
-                <button class="bg-neon-green rounded w-full lg:w-32 2xl:w-full h-10 px-3 hover:bg-white">
+                <button class="bg-neon-green rounded w-full lg:w-32 xl:w-full h-10 px-3 hover:bg-white">
                     <a class="flex flex-row justify-between w-full place-items-center"
                        href="{{$ghLink}}"
                        target="_blank">
@@ -27,9 +27,9 @@
 
         </div>
 
-        <div>
+        <div class="w-full md:w-6/12">
             @if($siteLink)
-                <button class="bg-neon-green rounded w-full lg:w-32 2xl:w-full h-10 px-3 hover:bg-white">
+                <button class="bg-neon-green rounded w-full lg:w-32 xl:w-full h-10 px-3 hover:bg-white">
                     <a class="flex flex-row justify-between w-full place-items-center"
                        href="{{$siteLink}}"
                        target="_blank">
