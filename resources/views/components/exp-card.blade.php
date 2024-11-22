@@ -3,7 +3,7 @@
     'company' => 'Red Banner Media, LLC [Remote]',
     'from' => 'April 2020',
     'to' => 'April 2022',
-    'description' => 'Collaborating with other teams of developers to create a full roadmap for development.',
+    'description' => [],
     'msg' => 'You? Contact me today!',
     'time' => 'Currently',
     'lineClass' => 'hidden md:block bg-white h-1.5 w-28 absolute top-1/2 md:-right-28',
@@ -13,13 +13,18 @@
 
 @if($mode === 'full')
     <div class="flex flex-row relative">
-        <div class="border-2 border-dark-neon-green rounded flex flex-col p-3 lg:w-[18.2em] xl:w-[30em] 2xl:w-[20em] 3xl:w-[35em] text-white justify-between text-xl space-y-3">
+        <div
+            class="border-2 border-dark-neon-green rounded flex flex-col p-3 lg:w-[18.2em] xl:w-[30em] 2xl:w-[20em] 3xl:w-[35em] text-white justify-between text-xl space-y-3">
             <h3 class="text-3xl">{{ $company }}</h3>
             <div class="flex flex-row justify-between">
                 <span>{{ $title }}</span>
                 <span>{{ $from }} - {{ $to }}</span>
             </div>
-            <p class="font-roboto text-neon-green">{{ $description }}</p>
+            <ul class="list-disc list-inside font-roboto">
+                @foreach($description as $item)
+                    <li class="text-2xl my-3">{{ $item }}</li>
+                @endforeach
+            </ul>
         </div>
         <div @class([
                 "hidden md:block bg-white h-1.5 w-28 absolute top-1/2 md:-right-28",
@@ -32,7 +37,8 @@
         </div>
     </div>
 @else
-    <div class="border-2 border-dark-neon-green rounded p-1.5 lg:w-[18.2em] xl:w-[30em] 2xl:w-[20em] 3xl:w-[35em] text-white text-xl relative mb-4">
+    <div
+        class="border-2 border-dark-neon-green rounded p-1.5 lg:w-[18.2em] xl:w-[30em] 2xl:w-[20em] 3xl:w-[35em] text-white text-xl relative mb-4">
         <div class="flex flex-row justify-between">
             <span>{{$msg}}</span>
             <span>{{$time}}</span>

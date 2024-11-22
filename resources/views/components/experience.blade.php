@@ -3,7 +3,7 @@
     <div
         class="flex flex-row justify-between md:w-[27.3em] lg:w-[30em] xl:w-[44.6em] 2xl:w-[32em] 3xl:w-[51.1em] md:mx-auto">
         <div
-            class="flex flex-col place-items-start lg:justify-between h-full md:w-80 lg:w-full lg:mx-auto py-8 space-y-6 3xl:h-[80vh]">
+            class="flex flex-col place-items-start lg:justify-between h-full md:w-80 lg:w-full lg:mx-auto py-8 space-y-6">
             <div class="flex flex-col justify-between h-full lg:h-3/5 3xl:h-4/5">
                 <x-exp-card
                     msg="You? Contact me today!"
@@ -12,32 +12,49 @@
                 />
 
                 <x-exp-card
-                    title="Full Stack Web Developer"
-                    company="Red Banner Media, LLC [Remote]"
-                    from="April 2020"
-                    to="April 2022"
-                    description="Collaborating with other teams of developers to create a full roadmap for development.
-                    Acted as a Scrum master for WriterBoards. Coordinating between a small team to maintain a large
-                    catalog of features and bugs presented by users. Reviewed, tested and debugged code from other
-                    developers. Co-Designed API backend made with PHP and MySQL. Removed superfluous aspects of the
-                    Front-End  codebase to match needs of project and Vue best practices."
-                />
-            </div>
-
-            {{--            <div class="hidden lg:block bg-white w-1.5 h-full"></div>--}}
-            <div class="flex flex-col justify-between h-full space-y-6 3xl:h-full">
-                <x-exp-card
                     title="Front-End Web Developer III"
                     company="Productive Edge, Chicago Illinois [Remote]"
                     from="April 2021"
                     to="February 2023"
                     box-class="bg-dark-neon-green size-8 absolute -top-4 md:-right-4"
                     line-class="hidden md:block bg-white h-1.5 w-28 absolute top-1/2 md:-right-28"
-                    description="Planned the front-end architecture for development of websites and web applications for
-                    clients Coordinated with back-end developers, project managers, and clients to develop solutions and
-                    maintain transparency in project progress. Developed websites and web applications based on project
-                    needs. Answered questions from junior developers and collaborated on solutions. Reviewed, tested and
-                     debugged code from other developers."
+                    :description="[
+                        'Developed full stack solution, where I used Laravel-mix to render Blade
+                        and Vue components for quick page renders. In addition, this sped up the
+                        site as there wasn’t a need to wait on an API end-point before rendering.
+                        Styled with Tailwind each component followed a figma design.',
+                        'I created an MVP using Caspio as a backend API and vanilla HTML, CSS,
+                        and JavaScript. After reaching an MVP, I designed the architecture for the
+                        front end. Using Vue 3, SCSS, and Axios.js (for better API calls), we
+                        created a feature-rich front-end experience for their customers.',
+                        'On a tight deadline, we updated a health insurance company’s website
+                        from an old HTML table structure to a modern mobile responsive
+                        website. I was also collaborating with a mobile developer to use the
+                        website as the front end for the mobile app. We were able to iterate
+                        quickly using HTML, CSS, and Alpine.js.',
+                        'Collaborating with a team of developers, I created the structure for the
+                        front-end using Vue, Vuetify, Vuelidate, and Axios.js, Using Vuetify and
+                        Vuelidate to speed up validation and the UI development we were quickly
+                        able to create the website.'
+                    ]"
+                />
+            </div>
+
+            {{--            <div class="hidden lg:block bg-white w-1.5 h-full"></div>--}}
+            <div class="flex flex-col justify-between h-full space-y-6 3xl:h-full">
+                <x-exp-card
+                    title="Full Stack Web Developer"
+                    company="Red Banner Media, LLC [Remote]"
+                    from="April 2020"
+                    to="April 2022"
+                    :description="[
+                        'A delivery driving company needed a dashboard that was easy to handle
+                        and mobile responsive. Having been the architect for the front end, I
+                        leveraged knowledge of Vue 3 and Tailwind CSS.',
+                       'I was originally hired as a freelancer and then brought on full-time to
+                       Productive Edge. I leveraged my skills as a full-stack developer working
+                       on a Laravel, Vue, and Tailwind project.',
+                    ]"
                 />
 
                 <x-exp-card
@@ -47,11 +64,17 @@
                     to="January 2019"
                     box-class="bg-dark-neon-green size-8 absolute -top-4 md:-right-4"
                     line-class="hidden md:block bg-white h-1.5 w-28 absolute top-1/2 md:-right-28"
-                    description="Develop websites and web/mobile applications. Coordinate with a team of other
-                    developers and programmers, Project Managers, Graphic Designers, and Production Staff. Work with
-                    writers and instructional designers to understand content and offer design, layout, and
-                    user-interaction/ functionality suggestions as needed. Consult with client and internal team on best
-                    use of client infrastructure. (Existing web servers, SharePoint, External platforms)"
+                    :description="[
+                        'In collaboration with copywriters and product managers, I created
+                        widgets for Inkling LMS ranging from word matches to drag-and-drop
+                        cards.',
+                        'Developed internal websites using SharePoint as the server for several
+                        clients. Using Angular.js, Vue, Bootstrap, and vanilla JavaScript.',
+                        'Automated updating of text, links, and images for Inkling books, using a
+                        mixture of PHP, Bash, and SVN.',
+                        'Created several pages and widgets for an October CMS site. Utilizing
+                        HTML, CSS, Twig, JavaScript, and PHP.'
+                    ]"
                 />
             </div>
         </div>
